@@ -1,0 +1,79 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# -----------------------------
+# Jupyter / notebooks
+# -----------------------------
+
+
+# -----------------------------
+# Logs & temp
+# -----------------------------
+*.log
+tmp/
+temp/
+
+# -----------------------------
+# Large model files / datasets
+# -----------------------------
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+
+data/
+datasets/
+checkpoints/
+outputs/
+results/
+
+# -----------------------------
+# llama.cpp build artifacts
+# -----------------------------
+llama.cpp/build/
+llama.cpp/*.o
+llama.cpp/*.a
+llama.cpp/*.so
+llama.cpp/main
+
+# -----------------------------
+# C / C++
+# -----------------------------
+*.out
+*.exe
+*.obj
+*.dll
+
+# -----------------------------
+# OS / Editor junk
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Git submodules (optional note)
+# -----------------------------
+# DO NOT ignore the folder itself if it's a submodule
+# llama.cpp/
+
+#Folders
+unsloth/*
