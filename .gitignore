@@ -77,3 +77,6 @@ Thumbs.db
 
 #Folders
 unsloth/*
+wandb/*
+train_r2r_img_motion_cleaned_sorted.json
+gru_train.ipynb
